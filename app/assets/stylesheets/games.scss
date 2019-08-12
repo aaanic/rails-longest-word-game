@@ -1,0 +1,35 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.letter-cards {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 5px;
+  text-align: center;
+  padding-inline-start: 10px;
+
+}
+
+.letter {
+  list-style: none;
+  background-color: #F18784;
+  padding: 10px;
+  margin-block: 0px;
+  border-radius: 2px;
+}
+
+
+.answer-form {
+  width: 80%;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 7fr 3fr;
+  padding-left: 10px;
+}
+
+input {
+ padding: 10px;
+ border-radius: 5px;
+
+}
